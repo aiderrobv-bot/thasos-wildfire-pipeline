@@ -58,3 +58,8 @@ Copernicus EMS delivers burned area data as damage-graded polygons derived from 
 - GDAL / ogr2ogr
 - GeoParquet
 - Copernicus EMS (EU satellite data)
+
+## Load in QGIS
+
+Open QGIS, drag and drop `data/processed/EMSR624_burned_areas.parquet` onto the map.
+Add a basemap via QuickMapServices to see the burned polygons over Thasos terrain.
