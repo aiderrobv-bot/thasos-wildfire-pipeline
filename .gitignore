@@ -1,0 +1,7 @@
+data/
+*.zip
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
