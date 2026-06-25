@@ -64,7 +64,11 @@ else
 fi
 
 # Find shapefile - Copernicus grading products contain _GRA_ in filename
-SHP_FILE=$(find "$EXTRACT_DIR" -name "*GRA*.shp" | head -1)
+# observedEventA contains the actual burned area polygons with attributes
+# areaOfInterestA is just the boundary — not useful for analysis
+SHP_FILE=$(find "$EXTRACT_DIR" -name "*observedEventA*.shp" | head -1)
+[ -z "$SHP_FILE" ] && SHP_FILE=$(find "$EXTRACT_DIR" -name "*GRA*.shp" | head -1)
+[ -z "$SHP_FILE" ] && SHP_FILE=$(find "$EXTRACT_DIR" -name "*.shp" | head -1)
 [ -z "$SHP_FILE" ] && SHP_FILE=$(find "$EXTRACT_DIR" -name "*.shp" | head -1)
 
 if [ -z "$SHP_FILE" ]; then
