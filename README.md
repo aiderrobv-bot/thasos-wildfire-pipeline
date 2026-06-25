@@ -63,3 +63,7 @@ Copernicus EMS delivers burned area data as damage-graded polygons derived from 
 
 Open QGIS, drag and drop `data/processed/EMSR624_burned_areas.parquet` onto the map.
 Add a basemap via QuickMapServices to see the burned polygons over Thasos terrain.
+
+## Context
+
+Thasos has a long history of wildfires. Major events include 1985 (10,405 ha), 1989 (8,401 ha), 2016 (four simultaneous fires from dry lightning), and 2022 (Potamia/Kinira). The island's mountainous pine forest combined with hot dry Mediterranean summers makes it highly vulnerable.
