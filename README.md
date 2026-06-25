@@ -67,3 +67,7 @@ Add a basemap via QuickMapServices to see the burned polygons over Thasos terrai
 ## Context
 
 Thasos has a long history of wildfires. Major events include 1985 (10,405 ha), 1989 (8,401 ha), 2016 (four simultaneous fires from dry lightning), and 2022 (Potamia/Kinira). The island's mountainous pine forest combined with hot dry Mediterranean summers makes it highly vulnerable.
+
+## Why burned area polygons matter
+
+Most public disaster datasets record events as points — a location, a date, a severity number. Copernicus EMS delivers something different: satellite-derived polygons showing the actual spatial extent of damage, graded by severity class. This means you can calculate exactly how many hectares burned at each severity level, overlay with land cover data to see what was lost (forest vs scrubland vs agricultural), and compare fire extents across events over time. The geometry *is* the data.
